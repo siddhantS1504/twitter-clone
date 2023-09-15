@@ -35,15 +35,15 @@ This is a simple Twitter clone built using the MERN (MongoDB, Express.js, React,
 - **Mongoose**: An Object Data Modeling (ODM) library for MongoDB and Node.js.
 - **Redux**: For managing application state.
 - **Material-UI**: A popular React UI framework for designing responsive and attractive user interfaces.
-
--API Endpoints
--POST /api/auth/register: Register a new user.
--POST /api/auth/login: Login and generate a JWT token.
--GET /api/tweets: Get all tweets.
--POST /api/tweets: Create a new tweet.
--GET /api/tweets/:id: Get a specific tweet by ID.
--PUT /api/tweets/:id: Update a tweet by ID.
--DELETE /api/tweets/:id: Delete a tweet by ID.
--POST /api/users/follow/:id: Follow a user.
+##ENDPOINTS
+-**API Endpoints
+-**POST /api/auth/register: Register a new user.
+-**POST /api/auth/login: Login and generate a JWT token.
+-**GET /api/tweets: Get all tweets.
+-**POST /api/tweets: Create a new tweet.
+-**GET /api/tweets/:id: Get a specific tweet by ID.
+-**PUT /api/tweets/:id: Update a tweet by ID.
+-**DELETE /api/tweets/:id: Delete a tweet by ID.
+-**POST /api/users/follow/:id: Follow a user.
 -POST /api/users/unfollow/:id: Unfollow a user.
 -GET /api/users/:username: Get a user's profile.
